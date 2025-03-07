@@ -16,4 +16,10 @@ public class BookShelf {
     public void setFirstLetter(char firstLetter){
         this.firstLetter = firstLetter;
     }
+
+    public void addBook(Book book){
+        if(books.size() < 8 && book.toString().charAt(0) == firstLetter){
+            books.add(book);
+        }
+    }
 }
