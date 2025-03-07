@@ -15,5 +15,13 @@ public class LibraryTester{
         System.out.println(book2);
         System.out.println(book3);
         System.out.println(book4);
+
+        shelfO.addBook(book2);
+        shelfO.addBook(book3);
+        shelfT.addBook(book1);
+        shelfT.addBook(book4);
+
+        System.out.println(shelfO);
+        System.out.println(shelfT);
     }
 }
