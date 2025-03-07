@@ -26,4 +26,16 @@ public class BookShelf {
     public void removeBook(Book book){
         books.remove(book);
     }
+
+    @Override
+    public String toString(){
+        if(books.isEmpty()){
+            return "Empty";
+        }
+        StringBuilder result = new StringBuilder();
+        for(Book book : books){
+            result.append(book.toString()).append(" ");
+        }
+        return result.toString().trim();
+    }
 }
