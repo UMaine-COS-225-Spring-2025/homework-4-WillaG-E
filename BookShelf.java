@@ -8,4 +8,12 @@ public class BookShelf {
         this.firstLetter = firstLetter;
         this.books = new ArrayList<>(8);
     }
+
+    public char getFirstLetter(){
+        return firstLetter;
+    }
+
+    public void setFirstLetter(char firstLetter){
+        this.firstLetter = firstLetter;
+    }
 }
