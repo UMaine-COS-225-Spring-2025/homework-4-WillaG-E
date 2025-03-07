@@ -5,5 +5,10 @@ public class LibraryTester{
     
         System.out.println(shelfO);
         System.out.println(shelfT);
+
+        Book book1 = new Book("The Heart of the Betrayed", "Crime");
+        Book book2 = new Book("Our Hill of Stars", "Fantasy");
+        Book book3 = new Book("One of a Kind", "Science Fiction");
+        Book book4 = new Book("The Vision of Roses", "Romance");
     }
 }
