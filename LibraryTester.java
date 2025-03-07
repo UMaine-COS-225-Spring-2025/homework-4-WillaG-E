@@ -10,5 +10,10 @@ public class LibraryTester{
         Book book2 = new Book("Our Hill of Stars", "Fantasy");
         Book book3 = new Book("One of a Kind", "Science Fiction");
         Book book4 = new Book("The Vision of Roses", "Romance");
+    
+        System.out.println(book1);
+        System.out.println(book2);
+        System.out.println(book3);
+        System.out.println(book4);
     }
 }
