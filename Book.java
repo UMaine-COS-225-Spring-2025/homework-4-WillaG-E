@@ -6,4 +6,9 @@ public class Book{
         this.title = title;
         this.genre = genre;
     }
+
+    @Override
+    public String toString(){
+        return title;
+    }
 }
